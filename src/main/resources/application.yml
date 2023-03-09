@@ -4,3 +4,9 @@ spring:
     username: orcl
     password: orcl
     driver-class-name: org.h2.Driver
+
+  batch:
+    job:
+      enabled: false
+    jdbc:
+      initialize-schema: always
